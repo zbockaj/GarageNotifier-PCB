@@ -6,7 +6,7 @@
 
   (title_block
     (title "GarageNotifier")
-    (date "2022-04-02")
+    (date "2022-08-15")
     (rev "v1.0.0")
     (comment 1 "Drawn by: Zvonko Bockaj")
   )
@@ -3260,11 +3260,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 02294bfb-5bbc-4352-9781-e9fe12c020b5)
   )
-  (text "TODO: REED has wrong polarity compared to SM351. Redesign to have reed on GND side."
-    (at 78.74 182.88 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid 078b1699-0e61-45ee-88ef-faf7848b3af7)
-  )
   (text "NF" (at 161.29 198.12 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 15fe807e-eabb-491b-ae8b-43917c32ac5a)
@@ -3273,17 +3268,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17749179-6d27-457d-91d4-ac1b4c0ce6b5)
   )
-  (text "TODO: when releasing production files, add note that only TOP was assembled\n"
-    (at 298.45 196.85 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 259663ae-92ad-4e94-9349-fbe56df01b31)
-  )
   (text "NF" (at 294.64 90.17 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 2a28a8c0-be0a-4ed8-a7f2-3a1bd1c99dcc)
   )
-  (text "Notes:\n- Open hardware\n- PCB fits Hammond RL6105BK and similar"
-    (at 317.5 241.3 0)
+  (text "Notes:\n- Open hardware\n- NF = Not Fitted (not assembled by default)\n- PCB fits Hammond RL6105BK and similar"
+    (at 317.5 242.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c749f0a-7ce6-4f62-a9ce-39efb110b7f0)
   )
